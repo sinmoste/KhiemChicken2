@@ -7,7 +7,7 @@ public class BossHealth : MonoBehaviour
     public int health = 1000;
     public GameObject deathEffect;
     public GameObject dialogHealth, dialogHeart;
-    Player player;
+    public Player player;
 
     public bool isInvulnerable = false;
     
@@ -28,11 +28,12 @@ public class BossHealth : MonoBehaviour
     }
     void Die()
     {
+        player.gm.points += 1000;
         dialogHealth.SetActive(false);
         dialogHeart.SetActive(false);
         Instantiate(deathEffect, transform.position, Quaternion.identity); 
         Destroy(gameObject);
-        player.gm.points += 1000;
+        
         if (PlayerPrefs.GetInt("highscore") < player.gm.points)
             PlayerPrefs.SetInt("highscore", player.gm.points);
     }
