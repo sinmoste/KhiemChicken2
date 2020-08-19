@@ -150,8 +150,10 @@ public class Player : MonoBehaviour
     public void Death()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       // PlayerPrefs.SetInt("Map", SceneManager.GetActiveScene().buildIndex);
         if(PlayerPrefs.GetInt("highscore") < gm.points)
             PlayerPrefs.SetInt("highscore", gm.points);
+
     }
     //Start Bẫy chông
     public void Damage(int damage)
@@ -267,7 +269,7 @@ public class Player : MonoBehaviour
         if(!immortal)
         {
             immortal = true;
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2);
             immortal = false;
         }    
     }

@@ -51,6 +51,7 @@ public class PauseMenu : MonoBehaviour
 
     public void quit()
     {
+        PlayerPrefs.SetInt("Map", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(0);
     }
 }

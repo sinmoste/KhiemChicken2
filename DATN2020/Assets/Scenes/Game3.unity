@@ -5534,7 +5534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &162904328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7856,7 +7856,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: SAVE & QUIT
 --- !u!222 &549922878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10883,6 +10883,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 40.397003
       objectReference: {fileID: 0}
+    - target: {fileID: 4399083178108848, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399083178108848, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399083178108848, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4507978557276566, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.319
@@ -11264,7 +11276,7 @@ MonoBehaviour:
   AttackDame: 20
   enrangeAttackdame: 40
   attackoffset: {x: -1.5, y: 0.35, z: 0}
-  attackrange: 1.2
+  attackrange: 2
   attackmask:
     serializedVersion: 2
     m_Bits: 2048

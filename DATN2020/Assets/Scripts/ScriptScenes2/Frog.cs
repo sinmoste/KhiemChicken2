@@ -120,9 +120,10 @@ public class Frog : MonoBehaviour
     }
     void Explosive()
     {
-        Destroy(this.gameObject);
+        player.gm.points += 300;
+        Destroy(gameObject);
     }
-    
+
     //knockback player
     public void OnCollisionEnter2D(Collision2D col)
     {

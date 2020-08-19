@@ -117,6 +117,7 @@ public class opposum4 : MonoBehaviour
     }
     void Explosive()
     {
+        player.gm.points += 300;
         Destroy(gameObject);
     }
     public void Knockbackscreep()

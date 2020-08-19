@@ -115,8 +115,10 @@ public class opposum2 : MonoBehaviour
             //sound.Playsound("destroy");
         }
     }
+
     void Explosive()
     {
+        player.gm.points += 300;
         Destroy(gameObject);
     }
     public void Knockbackscreep()

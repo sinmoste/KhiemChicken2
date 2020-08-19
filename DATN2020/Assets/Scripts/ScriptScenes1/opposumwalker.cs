@@ -109,12 +109,16 @@ public class opposumwalker : MonoBehaviour
     void Death()
     {
         if (maxHealth <= 0)
-        {         
-            anim.SetTrigger("Death");               
+        {
+            
+            anim.SetTrigger("Death");
+            //sound.Playsound("destroy");
         }
+        
     }
     void Explosive()
     {
+        player.gm.points += 300;
         Destroy(gameObject);
     }
     //người chơi chém vào quái

@@ -143,7 +143,8 @@ public class EnemyAI : MonoBehaviour
     }
     void Explosive()
     {
-        Destroy(this.gameObject);
+        player.gm.points += 500;
+        Destroy(gameObject);
     }
     public void Boom()
     {
