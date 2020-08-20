@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\ScriptScenes1\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\Player.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\ScriptScenes1\SaveFile.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\SoundManager.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\Spikes.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\groundeath.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Scripts\ScriptScenes1\opposum3.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\opposum4.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes1\opposumwalker.cs" />
+    <Compile Include="Assets\Scripts\ScriptScenes2\CheckPointController.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes2\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes2\EnemyGFX.cs" />
     <Compile Include="Assets\Scripts\ScriptScenes2\Fallingplat.cs" />
@@ -137,6 +139,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\score.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />

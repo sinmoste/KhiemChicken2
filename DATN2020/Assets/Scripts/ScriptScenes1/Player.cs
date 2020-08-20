@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     public bool immortal = false;
     //âm thanh
     public SoundManager sound;
-
+    public SaveFile filesave;
     // Use this for initialization
     void Start()
     {
@@ -149,10 +149,15 @@ public class Player : MonoBehaviour
     }
     public void Death()
     {
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
        // PlayerPrefs.SetInt("Map", SceneManager.GetActiveScene().buildIndex);
         if(PlayerPrefs.GetInt("highscore") < gm.points)
+        {
             PlayerPrefs.SetInt("highscore", gm.points);
+           
+        }
+           
 
     }
     //Start Bẫy chông

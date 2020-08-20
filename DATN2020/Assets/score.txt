@@ -1,0 +1,17 @@
+highScore 
+ 
+
+DateTime: 8/20/2020 11:17:26 AM
+ High Score: 600
+
+DateTime: 8/20/2020 11:17:44 AM
+ High Score: 600
+
+DateTime: 8/20/2020 11:18:12 AM
+ High Score: 600
+
+DateTime: 8/20/2020 11:20:17 AM
+ High Score: 600
+
+DateTime: 8/20/2020 11:20:47 AM
+ High Score: 700

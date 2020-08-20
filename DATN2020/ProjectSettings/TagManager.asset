@@ -18,6 +18,7 @@ TagManager:
   - sound
   - soundbom
   - Boss
+  - checkpoint2
   layers:
   - Default
   - TransparentFX
